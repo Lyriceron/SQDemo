@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="6"
+
+    >
+
+    <TextView
+        android:id="@+id/tenCv"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ten cong viec"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:textColor="#cc038ed4"
+        />
+    <ImageButton
+        android:id="@+id/imbDelete"
+        android:background="@null"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        />
+    <ImageButton
+        android:id="@+id/imbEdit"
+        android:background="@null"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:src="@drawable/ic_edit"/>
+
+</LinearLayout>

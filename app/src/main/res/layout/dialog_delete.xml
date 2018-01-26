@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/txtMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:text="You really want to remove this memo ?"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="22dp"
+        android:textColor="#0d83dc"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="22dp"
+        >
+        <Button
+            android:id="@+id/delete"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="yes"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#fff"
+            android:background="#ff33"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@color/blue"
+            android:textSize="20sp"
+            android:id="@+id/nodelete"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

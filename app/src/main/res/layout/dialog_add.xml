@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/txtMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="Add a memo"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginTop="22dp"
+        android:textColor="#0d83dc"
+        />
+
+    <EditText
+        android:id="@+id/themMoTa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="what you need to do ?"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColorHint="@color/blue"
+        android:textColor="@color/blue"
+        android:backgroundTint="@color/blue"
+        android:gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="22dp"
+        >
+        <Button
+            android:id="@+id/add"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#fff"
+            android:background="@color/blue"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:background="@color/blue"
+            android:textSize="20dp"
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="cancel"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
